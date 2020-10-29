@@ -1,0 +1,39 @@
+{
+  "governmentType": "central",
+  "office": {
+    "department": "Cabinet Secretariat",
+    "state": "DELHI",
+    "category": "Ministries/Departments/Attached Offices of Central Govt",
+    "name": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "address": "Ministry of Consumer Affairs, Food and Public Distribution\nDepartment of Food & PD\nKrishi Bhawan\nNew Delhi - 110001"
+  },
+  "projectHead": {
+    "code": "984M-C",
+    "name": "Vikas Sharma",
+    "designation": "Technical Director",
+    "group": "Food Affairs group",
+    "emailId": "vikassharma@gov.in",
+    "mobileNo": "9876543210",
+    "landlineNo": "011012365478"
+  },
+  "technicalHeadList": [
+    {
+      "code": "784KD",
+      "name": "Mukul Pandey",
+      "designation": "Project Head",
+      "emailId": "mukul@gov.in",
+      "mobileNo": "8765432109",
+      "landlineNo": "122145698712"
+    },
+    {
+      "code": "QE345",
+      "name": "Rakesh Kaur",
+      "designation": "Technical Admin",
+      "emailId": "rakeshkaur@gov.in",
+      "mobileNo": "7654321871",
+      "landlineNo": "9877123456987"
+    }
+  ],
+  "domainName": "foodaffairs.gov.in",
+  "projectName": "Food Affairs Project"
+}

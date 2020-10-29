@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+
+        <link
+            rel="stylesheet"
+            href="../static/resources/bootstrap/css/bootstrap.min.css"
+            th:href="@{/resources/bootstrap/css/bootstrap.min.css}"
+        />
+        <link
+            rel="stylesheet"
+            href="../static/resources/custom/header.css"
+            th:href="@{/resources/custom/header.css}"
+        />
+        <link
+            rel="stylesheet"
+            href="../static/resources/custom/footer.css"
+            th:href="@{/resources/custom/footer.css}"
+        />
+    </head>
+    <body>
+        <!-- Header fragments -->
+        <div class="container-fluid clearfix" style="background: #002e4c" th:fragment="header">
+            <div class="float-left" style="margin: 10px 0px" id="header-flex">
+                <img
+                    src="../static/resources/images/national-emblem.png"
+                    th:src="@{/resources/images/national-emblem.png}"
+                    class="header-emblem"
+                    alt="National Emblem of India"
+                />
+                <div class="header-content">
+                    <a href="https://napix.gov.in/" class="header-napix"
+                        >National API Exchange Platform
+                    </a>
+                    <sup class="header-beta">BETA</sup>
+                    <div class="header-meity">
+                        Ministry of Electronics &amp; Information Technology
+                    </div>
+                    <div class="header-nic">
+                        National Informatics Centre, Government of India
+                    </div>
+                </div>
+            </div>
+            <div class="float-right">
+                <a
+                    href="https://digitalindia.gov.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="../static/resources/images/digital-india-logo.png"
+                        th:src="@{/resources/images/digital-india-logo.png}"
+                        class="header-digital"
+                        alt="Digital India Logo"
+                    />
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer fragments -->
+        <footer class="footer footer-main" th:fragment="footer">
+            <div class="footer-items">
+                <div class="footer-item-1">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href=""> FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item-2">
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Copyright Policy</a></li>
+                        <li><a href="">Hyperlink Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item-3">
+                    <ul>
+                        <li><a href="">Act, Rules &amp; Policies</a></li>
+                        <li><a href="">API Publishing Policy</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <a
+                    href="https://www.nic.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="../static/resources/images/nic-logo.png"
+                        th:src="@{/resources/images/nic-logo.png}"
+                        class="logo-resize-nic"
+                        alt="National Informatics Centre"
+                    />
+                </a>
+                <div class="copyright">
+                    This platform is implemented by National Informatics Centre.
+                    <br />
+                    Government of India
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

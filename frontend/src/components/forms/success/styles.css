@@ -1,0 +1,39 @@
+#application-submit-success h2 {
+    font-size: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#application-submit-success img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#application-submit-success b {
+    padding-left: 0.5em;
+}
+
+#application-submit-success .emphasis {
+    padding-top: 0.7em;
+    font-size: 1.2em;
+}
+
+#application-submit-success ol > li {
+    padding-left: 0.7em;
+}
+
+#application-submit-success .form-button {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 7em;
+}
+
+#application-submit-success .form-button > a {
+    margin: 0 5em;
+    width: 180px;
+}

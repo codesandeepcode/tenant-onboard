@@ -1,0 +1,47 @@
+#captcha-box {
+    margin-top: 2em;
+}
+
+#captcha-box > span {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 0.6em;
+}
+
+#captcha-box .error {
+    width: 100%;
+    margin-top: 0rem;
+    margin-left: 2.5em;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#captcha-box .reload-image {
+    max-width: 45%;
+    max-height: 45%;
+}
+
+#captcha-box .rotate-image {
+    animation: spin 0.7s linear infinite;
+    -moz-animation: spin 0.7s linear infinite;
+    -webkit-animation: spin 0.7s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

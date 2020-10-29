@@ -1,0 +1,21 @@
+#not-found h3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#not-found a {
+    margin: auto;
+    display: block;
+    width: 10%;
+    margin-top: 6em;
+    margin-bottom: 5em;
+}
+
+#not-found img {
+    display: block;
+    width: 40%;
+    margin-top: 6em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}

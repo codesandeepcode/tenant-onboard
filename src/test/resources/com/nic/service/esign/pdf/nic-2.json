@@ -1,0 +1,35 @@
+{
+  "hog": {
+    "code": "1104",
+    "name": "Pawan Kumar Joshi",
+    "designation": "Scientist-G",
+    "address": "NIC HQS, NEW DELHI, 110003",
+    "department": "NIC",
+    "emailId": "pawan.joshi@nic.in",
+    "mobileNo": "9818662315",
+    "landlineNo": "11-24305268"
+  },
+  "hod": {
+    "code": "3629",
+    "name": "G. Mayil Muthu Kumaran",
+    "designation": "Scientist-G",
+    "address": "A4B3, II, A, NIC, NEW, 110003",
+    "department": "NIC",
+    "emailId": "muthu@nic.in",
+    "mobileNo": "9810119461",
+    "landlineNo": "11-24305748 "
+  },
+  "techAdmin1": {
+    "code": "5516",
+    "name": "Pooja Singh",
+    "designation": "Scientist-D",
+    "address": "A1B4, III, III, NIC HQS, , 110003",
+    "department": "NIC",
+    "emailId": "singhpooja@nic.in",
+    "mobileNo": "9810273875",
+    "landlineNo": "11-24305294"
+  },
+  "groupName": "SQG",
+  "domainName": "sqgportal.nic.in",
+  "projectName": "SQG NIC Project"
+}

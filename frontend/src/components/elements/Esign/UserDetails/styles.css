@@ -1,0 +1,58 @@
+#esign-form .wrapper {
+    height: 500px;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#esign-form .wrapper > h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0.2em 0.5em;
+}
+
+#esign-form .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#esign-form .form-content > .reference-no {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+#esign-form .form-content > .reference-no strong {
+    margin-left: 0.5em;
+}
+
+#esign-form .user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#esign-form .user-input > .form-group {
+    width: 90%;
+}
+
+#esign-form .action-buttons {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#esign-form .action-buttons > a,
+button {
+    margin: 0.5em 1em;
+}

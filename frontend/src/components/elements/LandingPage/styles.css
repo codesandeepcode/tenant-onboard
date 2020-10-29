@@ -1,0 +1,133 @@
+#landing-page .card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 5px;
+}
+
+#landing-page .border-line {
+    border-right: 2px solid #eeeeee;
+}
+
+/* #landing-page ::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+}
+
+#landing-page :-ms-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 300;
+}
+
+#landing-page ::-ms-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 300;
+} */
+
+#landing-page input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304ffe;
+    outline-width: 0;
+}
+
+#landing-page button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+#landing-page .btn-blue {
+    background-color: #002e4c;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#landing-page .btn-blue:hover {
+    background-color: rgb(9, 55, 148);
+    cursor: pointer;
+    color: #fff;
+}
+
+#landing-page .card2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    padding-top: 4em;
+}
+
+#landing-page .card2 > span {
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+    align-self: center;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#landing-page .error {
+    width: 100%;
+    margin-top: 0.75rem;
+    margin-left: 2.5em;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#landing-page .register-radio-choice {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    margin-bottom: 0.6em;
+}
+
+#landing-page .register-radio-choice > label {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#landing-page .register-radio-choice > label > input {
+    margin-top: 0.55rem;
+}
+
+#landing-page .esign-application-no {
+    width: 60%;
+    margin-left: 1.3em;
+}
+
+#landing-page .choose-organisation > span {
+    margin-left: 2em;
+    font-weight: 600;
+}
+
+#landing-page .choose-organisation > div {
+    margin-left: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#landing-page .captcha-wrapper {
+    margin-top: 3.5em;
+}
+
+#landing-page .captcha-wrapper > span {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 0.6em;
+}
+
+#landing-page .captcha-wrapper > .error {
+    width: 100%;
+    margin-top: 0rem;
+    margin-left: 2.5em;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#landing-page .on-boarding-image {
+    margin-left: 2em;
+    margin-right: 5em;
+}

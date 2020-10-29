@@ -1,0 +1,27 @@
+{
+	"office": {
+		"name": "Motivational Education Company ",
+		"state": "DELHI",
+		"address": "Sri Ahobila Mutt Road, Nr Diamond Garden,\nChembur, Mumbai,\nMaharashtra - 400071"
+	},
+	"projectHead": {
+		"code": "98RET-0",
+		"name": "Lalita Bhatnagar",
+		"designation": "Head Director",
+		"emailId": "kiran.swaminathan@yahoo.in",
+		"mobileNo": "9113717878",
+		"landlineNo": ""
+	},
+	"domainName": "motivation.edu.in",
+	"projectName": "Online Education For Secondary",
+	"technicalHead": [
+		{
+			"code": "EQW-78445",
+			"name": "Nishita Choudhry",
+			"designation": "Technical Admin",
+			"emailId": "yamini@outlook.com",
+			"mobileNo": "7433248576",
+			"landlineNo": "121014446067"
+		}
+	]
+}

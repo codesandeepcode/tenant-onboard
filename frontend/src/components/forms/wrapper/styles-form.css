@@ -1,0 +1,147 @@
+#application-form .main-error {
+    color: #dc3545;
+    margin-top: 3rem;
+}
+
+#application-form .error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#application-form span.imp {
+    color: red;
+}
+
+#application-form .form-content h4 {
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+}
+
+#application-form .form-content h5 {
+    padding: 0.5em 0;
+    /* padding-left: 0.4em; */
+}
+
+#application-form .hodcheckbox {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    margin-left: -1.2em;
+}
+
+#application-form .form-body {
+    /* padding: 0 1.5em; */
+    padding-bottom: 0.8em;
+}
+
+#application-form .form-body-end {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#application-form .form-end-checkbox {
+    padding-left: 0.2em;
+}
+
+#application-form .form-button {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 7em;
+}
+
+#application-form .form-button > button,
+#application-form .form-button > a {
+    margin: 0 5em;
+    width: 180px;
+}
+
+#application-form .choose-govt-type {
+    text-align: center;
+}
+
+#application-form .choose-govt-type > div {
+    margin: 0 10em;
+}
+
+#application-form .terms-and-conditions-modal button {
+    width: 150px;
+    margin: 0 3em;
+}
+
+#application-form .terms-and-conditions-modal li {
+    margin: 0.5em 0;
+}
+
+#application-form .terms-and-conditions-modal-span {
+    cursor: pointer;
+    color: blue;
+}
+
+#application-form .terms-and-conditions-modal-span:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(194, 194, 194);
+}
+
+#application-form .technical-head {
+    width: 100%;
+    position: relative;
+}
+
+#application-form .technical-head > svg {
+    top: 0.5em;
+    right: -3em;
+    width: 2em;
+    height: 2em;
+    fill: red;
+    position: absolute;
+}
+
+#application-form .technical-head > svg:hover {
+    fill: rgb(198, 0, 0);
+    cursor: pointer;
+}
+
+#application-form .technical-head-content {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #fff 1px;
+    padding: 0 0.5em;
+}
+
+#application-form .technical-head svg:hover ~ .technical-head-content {
+    border: solid #5a6bcea7 1px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    box-shadow: 0 0 10px #85beec;
+    -moz-box-shadow: 0 0 10px #85beec;
+    -webkit-box-shadow: 0 0 10px #85beec;
+    transition: box-shadow linear 0.2s;
+}
+
+#application-form .add-technical-head {
+    margin-top: 0.7em;
+    margin-left: -2em;
+}
+
+#application-form .add-technical-head > svg {
+    margin-bottom: 0.5em;
+    width: 2em;
+    height: 2em;
+    fill: currentColor;
+}
+
+#application-form .add-technical-head > h5 {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0 0;
+}
+
+#application-form .add-technical-head:hover {
+    cursor: pointer;
+}
+
+#application-form .add-technical-head:hover > svg {
+    fill: #1669ce;
+}

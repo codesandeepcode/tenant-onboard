@@ -1,0 +1,6 @@
+
+
+CREATE SEQUENCE IF NOT EXISTS application_reference_seq_no
+	AS INTEGER
+    INCREMENT BY 1
+    START WITH 10000;

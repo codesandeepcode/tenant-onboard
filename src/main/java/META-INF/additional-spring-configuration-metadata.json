@@ -1,0 +1,54 @@
+{
+    "properties": [
+        {
+            "name": "application.domain-name",
+            "type": "java.lang.String",
+            "description": "Domain name of the server this application is hosted in"
+        },
+        {
+            "name": "application.sub-directory",
+            "type": "java.lang.String",
+            "description": "The subdirectory where the application war file is located at (if not deploying in ROOT location of server)"
+        },
+        {
+            "name": "run.with.external-service-api",
+            "type": "java.lang.Boolean",
+            "description": "To specify whether to connect to external Bharat APIs service for fetching details about NIC employees"
+        },
+        {
+            "name": "nic-esign.secret.jks.alias-name",
+            "type": "java.lang.String",
+            "description": "Specify the keystore entry name from the certificate for esigning"
+        },
+        {
+            "name": "nic-esign.secret.jks.password",
+            "type": "java.lang.String",
+            "description": "Specify the password which will be used to access the signing certificate to esign requests"
+        },
+        {
+            "name": "react.application-base-url",
+            "type": "java.lang.String",
+            "description": "A base url where the react application server is running at (Mainly used for development version)"
+        },
+        {
+            "name": "nic-esign.secret.jks.file-path",
+            "type": "java.lang.String",
+            "description": "Path/location to where jks certificate file is stored"
+        },
+        {
+            "name": "nic-esign.gateway.main-url",
+            "type": "java.lang.String",
+            "description": "Esign Gateway url which will be used by this application to redirect user to when initiating process of e-signing application"
+        },
+        {
+            "name": "nic-esign.gateway.redirect-response-url",
+            "type": "java.lang.String",
+            "description": "Esign Gateway response url to redirect user back to this application on completing e-signing process"
+        },
+        {
+            "name": "publisher.application.max-time-limit",
+            "type": "java.lang.Integer",
+            "description": "A maximum time limit (in days) for an application to be active for esigning, after which the application will be locked and no longer be used for esigning"
+        }
+    ]
+}

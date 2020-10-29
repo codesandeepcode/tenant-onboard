@@ -1,0 +1,21 @@
+<EsignResp errCode="ESP-704" errMsg="Invalid e-Sign Transaction" resCode="bd01e0de-8057-4141-8617-33f2b0f829a0" status="0" ts="2020-08-29T13:11:22.774" txn="999-BHARATAPI-20200829-131012-000066">
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>fNw4MTJFIy0XNN9Ia+ao0LE3+N0=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>1SSO1/bCXif+mvmwgm6CbJWfSQNXFgOgiTdFkZkDHmfQb0uPOiGi9Q7BftDKXgij/K56ecc/ER2z
+AhZT+AapIcDrZND3OrD6HqQoPEij94iUJ7/H61kzTfW04LaqYJmRa1jMFn8uZrrqIzVxlpcQJJ5+
+IDaWH1qlbA7qr6mMo1y4ren9zBpEYX0d196f3tzv1CjINy+TTpdw6x9JrmbbzyRA/Z6LfYKyGrBn
+OgV+H6IgSzAfHY+aeGJPBR1q4zTM3QMml7FZTs+nbiu4bkQ6iCXhxoYHmn7LJe5Arn6JFdXu+fUm
+cFsz2a7rgFNzRpTGLwDYKIBf8HCPm5LufA965A==
+</SignatureValue>
+	</Signature>
+</EsignResp>

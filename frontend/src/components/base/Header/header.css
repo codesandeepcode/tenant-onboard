@@ -1,0 +1,45 @@
+#header-flex {
+    display: flex;
+}
+
+.header-content {
+    color: white;
+}
+
+.header-emblem,
+.header-digital {
+    max-height: 90px;
+}
+
+.header-emblem {
+    margin-right: 10px;
+}
+
+.header-digital {
+    margin-top: 10px;
+}
+
+.header-napix {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 1px dotted white;
+    color: white;
+}
+
+a.header-napix:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.header-beta {
+    font-size: 0.5rem;
+    font-weight: 400;
+    background: #ffffff;
+    color: #002e4c;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.header-meity {
+    color: #bbcbbb;
+}
